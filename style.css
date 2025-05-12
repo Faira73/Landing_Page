@@ -1,0 +1,48 @@
+
+body{
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  background-color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.header-link{
+    padding: 16px;
+}
+.sec1{
+    background-color:#1F2937 ;
+    display: flex;  
+    padding:48px;  
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+
+}
+.title1{
+    font-weight: 900;
+    color: #f9faf8;
+    font-size: 48px;
+}
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
