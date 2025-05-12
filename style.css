@@ -32,6 +32,17 @@ a{
     display: flex;  
     padding:48px;  
 }
+.signup-button{
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(77, 125, 237);
+    text-align: center;
+    cursor: pointer;
+}
 .hero-content{
     display: flex;
     flex-direction: column;
