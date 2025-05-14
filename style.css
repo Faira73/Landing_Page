@@ -114,3 +114,10 @@ a{
     font-style: normal;
     text-align: right;
 }
+.footer{
+   background-color: #1F2937;
+   color: #e5e7eb;
+   height: 60px; 
+   text-align: center;
+   line-height: 60px;
+}
