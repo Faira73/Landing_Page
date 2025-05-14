@@ -2,7 +2,6 @@
 body{
   height: 100vh;
   margin: 0px;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   background-color: white;
 }
@@ -88,4 +87,30 @@ a{
     color: #1F2937;
     font-weight: 900;
     margin: 24px;
+}
+
+.sec3{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 80px 48px;
+    display: flex;
+    justify-content: center;
+}
+.Quote{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+.Quote > * {
+    margin: 0;
+    padding: 0;
+  }
+  
+.citation{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: right;
 }
